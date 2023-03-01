@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="#FAEEEE">
+
+
+    <TextView
+        android:id="@+id/poetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mirza Galib"
+        android:textStyle="bold"
+        android:textColor="#3A2323"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/poetryDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Humein Shayar Samajh Ke Yoon Najar Andaz Mat Kariye,
+Najar Hum Fer Le To Husn Ka Baazar Gir Jayega.
+Humari Haisiyat Ka Andaza Tum Ye Jaan Ke Laga Lo,
+Hum Kabhi Unke Nahi Hote Jo Har Kisi Ke Ho Gaye."
+        android:textStyle="italic"
+        android:textColor="#534040"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/poetryDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="26-01-2021"
+        android:textAlignment="textEnd"
+        android:textStyle="italic"
+        android:textColor="#9D78D1"
+        android:textSize="14sp"/>
+</LinearLayout>
