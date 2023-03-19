@@ -19,7 +19,7 @@ public class ApiClient {
             Gson gson = new Gson().newBuilder().create();
 
             RETROFIT = new Retrofit.Builder()
-                    .baseUrl("http://localhost/poetryapi/")
+                    .baseUrl("http://10.0.2.2/poetryapi/")
                     .client(okHttpClient)
                     .addConverterFactory(GsonConverterFactory.create(gson)).build();
         }
