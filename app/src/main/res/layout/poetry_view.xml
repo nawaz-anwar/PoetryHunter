@@ -28,7 +28,7 @@ Humari Haisiyat Ka Andaza Tum Ye Jaan Ke Laga Lo,
 Hum Kabhi Unke Nahi Hote Jo Har Kisi Ke Ho Gaye."
         android:textStyle="italic"
         android:textColor="#534040"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textAlignment="center"
         android:layout_marginBottom="5dp"/>
 
@@ -41,4 +41,26 @@ Hum Kabhi Unke Nahi Hote Jo Har Kisi Ke Ho Gaye."
         android:textStyle="italic"
         android:textColor="#9D78D1"
         android:textSize="14sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/updateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete" />
+    </LinearLayout>
+
 </LinearLayout>
